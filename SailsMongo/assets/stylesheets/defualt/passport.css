@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/**
+* 基本配置
+*/
+/* line 116, ../../../../../.rvm/gems/ruby-1.9.3-p547/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 30, ../../sass/default/_base.scss */
+html {
+  font-size: 100%;
+}
+
+/* line 34, ../../sass/default/_base.scss */
+body {
+  font-size: 2.0rem;
+  line-height: 1.6em;
+  background-color: #ddd;
+}
+
+/* line 6, ../../sass/default/passport.scss */
+body {
+  padding-top: 100px;
+  background-image: url("/images/passport-bkg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+/* line 20, ../../sass/default/passport.scss */
+.passportContainer {
+  padding: 20px;
+  position: relative;
+  width: 30%;
+  -moz-box-shadow: 1px 1px 10px 1px #000;
+  -webkit-box-shadow: 1px 1px 10px 1px #000;
+  box-shadow: 1px 1px 10px 1px #000;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(0, 0, 0, 0.3);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 29, ../../sass/default/passport.scss */
+.passportContainer form .ui.header {
+  color: white;
+  border-bottom: 2px dashed rgba(161, 183, 205, 0.35);
+}
+
+/* line 36, ../../sass/default/passport.scss */
+.passportContainer a.backToHome {
+  display: block;
+  position: absolute;
+  bottom: -5px;
+  right: 5px;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.58);
+  text-decoration: underline;
+}
+
+/* line 48, ../../sass/default/passport.scss */
+.field:last-child {
+  text-align: center;
+}

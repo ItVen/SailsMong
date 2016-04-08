@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/**
+* 基本配置
+*/
+/* line 116, ../../../../../.rvm/gems/ruby-1.9.3-p547/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 30, ../../sass/default/_base.scss */
+html {
+  font-size: 100%;
+}
+
+/* line 34, ../../sass/default/_base.scss */
+body {
+  font-size: 2.0rem;
+  line-height: 1.6em;
+  background-color: #ddd;
+}
+
+/* line 7, ../../sass/default/common.scss */
+.siteHead {
+  z-index: 10000;
+  padding: 0px 10px;
+  color: white;
+  top: 0;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  width: 20%;
+  height: 100%;
+  min-height: 400px;
+  background: #000000;
+  background-image: url("/images/common-sider.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+/* line 24, ../../sass/default/common.scss */
+.siteHead .action {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+/* line 29, ../../sass/default/common.scss */
+.siteHead #logout {
+  right: 5px;
+}
+
+/* line 32, ../../sass/default/common.scss */
+.siteHead #edit {
+  left: 5px;
+}
+
+/* line 37, ../../sass/default/common.scss */
+.siteHead .ui.circular.image {
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 46, ../../sass/default/common.scss */
+.siteHead .content .siteName {
+  margin: 40px 0px 10px 0px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: -1px;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* line 55, ../../sass/default/common.scss */
+.siteHead .content .siteDesc {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.5em;
+  letter-spacing: 0;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* line 68, ../../sass/default/common.scss */
+.siteHead .linker {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+}
+
+/* line 76, ../../sass/default/common.scss */
+.siteHead .linker a {
+  color: white;
+}
+
+/* line 78, ../../sass/default/common.scss */
+.siteHead .linker a:hover {
+  color: #4183c4;
+}
+
+/* line 88, ../../sass/default/common.scss */
+.asidePart {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  padding: 10px;
+  width: 15%;
+  height: 100%;
+  border-left: 2px dashed #BFBFBF;
+}
+
+/* line 97, ../../sass/default/common.scss */
+.asidePart .list {
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* line 101, ../../sass/default/common.scss */
+.asidePart .list .title {
+  font-size: 1.5rem;
+}
+
+/* line 105, ../../sass/default/common.scss */
+.asidePart .list .content {
+  font-size: 1rem;
+}
+
+/* line 114, ../../sass/default/common.scss */
+.mainContainer {
+  position: relative;
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 21%;
+  margin-right: 10%;
+}
+
+/* line 126, ../../sass/default/common.scss */
+.button.expand {
+  width: 100%;
+}
